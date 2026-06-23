@@ -204,18 +204,18 @@ artifacts/ig-test-001/d79bbc34291a40a4b0f6faa67e10fc2a/
 
 | File | Changes | Status |
 |------|---------|--------|
-| `sigilzero/core/schemas.py` | Fixed duplicate fields, added chain metadata | ✓ Complete |
-| `sigilzero/core/doctrine.py` | Verified/confirmed implementation | ✓ Verified |
-| `sigilzero/pipelines/phase0_brand_optimization.py` | Fixed doctrine snapshot, manifest bugs | ✓ Complete |
-| `sigilzero/pipelines/phase0_instagram_copy.py` | Verified snapshot handling | ✓ Verified |
-| `sigilzero/jobs.py` | Confirmed governance routing | ✓ Verified |
-| `main.py` | Confirmed API contract | ✓ Verified |
+| `app/sigilzero/core/schemas.py` | Fixed duplicate fields, added chain metadata | ✓ Complete |
+| `app/sigilzero/core/doctrine.py` | Verified/confirmed implementation | ✓ Verified |
+| `app/sigilzero/pipelines/phase0_brand_optimization.py` | Fixed doctrine snapshot, manifest bugs | ✓ Complete |
+| `app/sigilzero/pipelines/phase0_instagram_copy.py` | Verified snapshot handling | ✓ Verified |
+| `app/sigilzero/jobs.py` | Confirmed governance routing | ✓ Verified |
+| `app/main.py` | Confirmed API contract | ✓ Verified |
 
 ## Files Created
 
 | File | Purpose | Status |
 |------|---------|--------|
-| `sigilzero/core/determinism.py` | Verification framework | ✓ Complete |
+| `app/sigilzero/core/determinism.py` | Verification framework | ✓ Complete |
 | `docs/ARCHITECTURE_PHASE_1.0_DETERMINISM.md` | Full specification | ✓ Complete |
 | `docs/ARCHITECT_REPORT_PHASE_1.0.md` | Implementation report | ✓ Complete |
 
@@ -227,7 +227,7 @@ artifacts/ig-test-001/d79bbc34291a40a4b0f6faa67e10fc2a/
 
 **Run full smoke test suite:**
 ```bash
-cd /Users/jcodec/Sites/SIGIL.ZERO\ AI/sigilzero-ai
+cd /path/to/sigilzero-ai
 python app/scripts/smoke_determinism.py /app
 ```
 
@@ -296,7 +296,7 @@ See [STAGE_9_ACTUAL_STATUS.md](./STAGE_9_ACTUAL_STATUS.md) for complete checklis
 
 **Current Status:** Code is ready for testing. Testing is NOT DONE.
 
-**Status: READY FOR PRODUCTION**
+**Status: NOT READY FOR PRODUCTION** (see checklist above — operational and integration testing incomplete)
 
 ---
 
