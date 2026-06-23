@@ -254,7 +254,7 @@ Verification is performed via smoke scripts and determinism verifier APIs; use d
 ### Install
 
 ```bash
-cd /Users/jcodec/Sites/SIGIL.ZERO\ AI/sigilzero-ai
+cd sigilzero-ai
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r app/requirements.txt

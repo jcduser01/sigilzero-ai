@@ -99,7 +99,7 @@ Four comprehensive tests:
 
 ### Invariant 2: Deterministic run_id Derivation
 **Status**: ✅ PRESERVED
-- `run_id = sha256(inputs_hash).hex()[:16]` remains unchanged
+- `run_id = inputs_hash[len("sha256:"):][:32]` (first 32 hex chars of `inputs_hash`) remains unchanged
 - Generation parameters (generation_mode, caption_variants, output_formats) are ALL in brief snapshot
 - Changing any mode parameter changes brief snapshot → new inputs_hash → new run_id
 - run_id is independent of generation strategy; same run_id always means identical inputs

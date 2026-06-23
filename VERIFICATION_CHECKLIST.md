@@ -243,7 +243,7 @@ print("Backward compatibility verified")
 ### 5.1 Run Smoke Tests
 
 ```bash
-cd /Users/jcodec/Sites/SIGIL.ZERO\ AI/sigilzero-ai
+cd /path/to/sigilzero-ai
 
 # Run full determinism test suite
 python app/scripts/smoke_determinism.py /app
@@ -361,12 +361,12 @@ EOF
 
 ## Status
 
-**Phase 1.0 Determinism Guardrails: COMPLETE & READY FOR PRODUCTION**
+**Phase 1.0 Determinism Guardrails: Code implemented. Pre-launch verification pending.**
 
-✅ All 7 invariants enforced
+✅ All 7 invariants enforced in code
 ✅ Comprehensive documentation
-✅ Full verification framework
-✅ Backward compatible
-✅ Production ready
+✅ Verification framework built
+✅ Backward compatible API
+⚠️ Operational and integration testing not yet completed — see `IMPLEMENTATION_SUMMARY_PHASE_1.0.md` and `STAGE_9_ACTUAL_STATUS.md` for outstanding items
 
-Run the verification checklist above to confirm all implementations are in place.
+Run the verification checklist above to confirm all implementations are in place before claiming production readiness.

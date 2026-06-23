@@ -207,7 +207,7 @@ except Exception as e:
 #### Test Execution
 
 ```bash
-$ cd /Users/jcodec/Sites/SIGIL.ZERO\ AI/sigilzero-ai
+$ cd /path/to/sigilzero-ai
 $ python3 app/scripts/smoke_observability.py
 
 Running 8 observability smoke tests...

@@ -1,6 +1,3 @@
-""" 
-ARCHITECTURE_PHASE_1.0_DETERMINISM.md - Phase 1.0 Determinism Guardrails
-
 # Phase 1.0 Determinism Guardrails - Complete Architecture
 
 ## Executive Summary
@@ -732,4 +729,3 @@ Scans all manifest.json files, rebuilds Postgres indices without data loss.
 - [x] Determinism verification module
 - [x] Smoke tests for all invariants
 - [x] Comprehensive architecture documentation
-"""
